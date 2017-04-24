@@ -1,0 +1,99 @@
+body, html{
+  padding: 0;
+  margin: 0;
+  /*background-color: pink;*/
+  /*box-sizing: content-box;*/
+  font-family: 'Raleway' , sans-serif;
+}
+.content{
+  /*text-align: center;*/
+  /*display: inline-block;*/
+  width: 70%;
+  height: 500px;
+
+  /*background-color: red;*/
+  /*margin-right: 10%;
+  margin-left: 25%;
+  margin-top: 5%;*/
+  position: relative;
+  /*position:ab;*/
+  background-image:url(../img/students.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  /*padding: 70px;*/
+  margin-left: 15%;
+  margin-right: 10%;
+  margin-top: 5%;
+}
+.contextLeft .img-top{
+  width: 40%;
+  position: absolute;
+  left: 35%;
+}
+.contextLeft .img-font{
+
+}
+img{
+  width: 100%;
+  /*position: relative;*/
+}
+.contextLeft{
+  /*background-color: green;*/
+  position: relative;
+  width: 77.6%;
+  height: inherit;
+  display: inline-block;
+  left: 0;
+
+}
+.contextRigth{
+  z-index: 14;
+  position: relative;
+  /*position: absolute;*/
+  bottom: 30px;
+  width: 770px;
+  height: 500px;
+  /*bottom: 38.9%;*/
+  /*background: linear-gradient(135deg,#d8d9de,#3c3c3b,#3c3c3b,#3c3c3b);*/
+
+  background: linear-gradient(120deg, rgba(60,60,59,0) 0%, rgba(60,60,59,0) 50%, rgba(60,60,59,1) 50%, rgba(60,60,59,1) 100%);
+  -moz-background: linear-gradient(120deg, rgba(60,60,59,0) 0%, rgba(60,60,59,0) 50%, rgba(60,60,59,1) 50%, rgba(60,60,59,1) 100%);
+  -webkit-background: linear-gradient(120deg, rgba(60,60,59,0) 0%, rgba(60,60,59,0) 50%, rgba(60,60,59,1) 50%, rgba(60,60,59,1) 100%);
+
+  display: inline-block;
+  left: 0;
+  /*border-left: 300px solid  transparent;*/
+  /*border-bottom: 425px solid #3c3c3b;*/
+
+}
+.contact{
+  position: relative;
+
+  width: 40%;
+  right: 0;
+  top: 25%;
+  left: 0;
+  left: 55%;
+  color: #f9f6d9;
+  font-weight:400;
+
+}
+.contextRigth .information{
+  position: relative;
+  width: 35%;
+  right: 0;
+  top: 25%;
+  left: 65%;
+  /*background-color: blue;*/
+
+}
+
+.contextRigth .name{
+  color: #f9f6d9;
+  font-weight: 400;
+}
+.contextRigth .specialty{
+  color: #eda628;
+
+font-weight: 200;
+}
