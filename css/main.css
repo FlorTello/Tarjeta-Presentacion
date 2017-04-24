@@ -44,10 +44,10 @@ body, html{
   width: 40%;
   right: 0;
   top: 60%;
-  left: 0;
   left: 55%;
   color: #f9f6d9;
   font-weight:400;
+  line-height: 1.5;
 }
 .contextRigth .information{
   position: absolute;
